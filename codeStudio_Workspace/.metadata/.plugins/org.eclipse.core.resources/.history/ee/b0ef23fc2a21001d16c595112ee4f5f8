@@ -1,0 +1,13 @@
+package testRunner;
+
+import org.junit.runner.RunWith;
+
+@RunWith(Cucumber.class)
+@CucumberOptions(
+		features = "/src/test/java/Features/LoginFeature.feature"
+		)
+public class TestRunner {
+	
+	
+
+}

@@ -1,0 +1,15 @@
+package pageObjects;
+
+import org.openqa.selenium.WebDriver;
+
+public class AddNewCustomerPage {
+	
+	public WebDriver driver;
+	
+	public AddNewCustomerPage(WebDriver driver){
+		
+		this.driver = driver;
+		
+	}
+
+}
